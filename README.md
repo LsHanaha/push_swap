@@ -8,7 +8,7 @@ Difference between this and common task - you can rotate your stacks (command rr
 Stacks imlemented as array of integhers, commands stored in red-black binary tree (bonuses).
 
 ## How to compile:
-Run 'make', an executables called `push_swap` and `checker`. 
+Run `make`, an executables called `push_swap` and `checker`. 
 ## Usage
 `./push_swap [array_of_int]` - show you commands for sorting array.
-`./checker [array_of_int]` - send array in checker. Then you need to input sorting commands in stdin.
+`./checker [array_of_int]` - send array in checker. Then you need to input sorting commands in stdin. Return result `OK` or `KO`
